@@ -55,7 +55,7 @@ Create a tidy dataframe containing data from all participants, including the sub
 
 Start with a dataframe containing all file names; the list.files function will help
 
-```{r Pb 2}
+```{r Pb 2, message = FALSE }
 ##Function definition:
 read_and_label<-function(filename){
    if (class(filename) == "character") {
